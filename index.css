@@ -65,7 +65,7 @@ h6 {
 
 #app nav {
   /* background: linear-gradient(120deg, #3498db, #9b59b6); */
-  background: #1b242f80;
+  background: #1b242f80 !important;
   border: none;
 }
 
