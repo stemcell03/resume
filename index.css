@@ -65,8 +65,7 @@ h6 {
 
 #app nav {
   /* background: linear-gradient(120deg, #3498db, #9b59b6); */
-  background: #1b242f !important;
-
+  background: #1b242f80;
   border: none;
 }
 
@@ -278,6 +277,12 @@ h6 {
 
 
 @media(max-width:768px) {
+  #app nav {
+    /* background: linear-gradient(120deg, #3498db, #9b59b6); */
+    background: #1b242f80;
+    border: none;
+  }
+
   #about {
     background-size: auto 100%;
   }
