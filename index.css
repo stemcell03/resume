@@ -83,7 +83,7 @@ h6 {
 
 #app nav ul a:hover {
   color: #00a78e;
-  /* border-bottom: #00a78e solid; */
+  /* border-bottom: 2px #00a78e solid; */
 
 }
 
@@ -279,7 +279,7 @@ h6 {
 @media(max-width:768px) {
   #app nav {
     /* background: linear-gradient(120deg, #3498db, #9b59b6); */
-    background: #1b242f80;
+    background: #1b242f;
     border: none;
   }
 
