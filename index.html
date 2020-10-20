@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/common/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">RESUME</a>
+          </div>
+          <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">个人信息</a></li>
+              <li><a href="#education">教育经历</a></li>
+              <li><a href="#skills">技能/证书</a></li>
+              <li><a href="#works">项目作品</a></li>
+              <li><a href="#introduction">自我简述</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="about">
+        <div class="container">
+          <div class="outer clearfix">
+            <div class="col-xs-12 col-sm-7 col-md-7">
+              <div class="title">
+                <h1>Hi !</h1>
+                <h6>这是我的基本信息</h6>
+              </div>
+              <ul>
+                <li>姓名:&emsp;&emsp;林少雄</li>
+                <li>意向:&emsp;&emsp;前端工程师</li>
+                <li>电话:&emsp;&emsp;13609520795</li>
+                <li>邮箱:&emsp;&emsp;954809500@qq.com</li>
+              </ul>
+            </div>
+            <div id="portrait" class="col-xs-12 col-sm-5 col-md-5  ">
+              <img src="./src/static/img/_MG_2618-1.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="education">
+        <div class="container">
+          <div class="outer">
+            <div class="title">
+              <h1>教育经历</h1>
+              <h6>这是我学习的地方</h6>
+            </div>
+            <ul>
+              <li> <a
+                  href="https://baike.baidu.com/item/%E7%A6%8F%E5%BB%BA%E5%86%9C%E6%9E%97%E5%A4%A7%E5%AD%A6/122489?fr=aladdin"
+                  target="blank">毕业院校:&emsp;&emsp;&emsp;福建农林大学</a> </li>
+              <li>起止时间:&emsp;&emsp;&emsp;2014.9-2018.6</li>
+              <li>专业:&emsp;&emsp;&emsp;&emsp;&emsp;电子信息工程</li>
+              <li>学历:&emsp;&emsp;&emsp;&emsp;&emsp;本科</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="skills">
+        <div class="container ">
+          <div class="outer clearfix">
+            <div class="title">
+              <h1>技能</h1>
+              <h6>这是我学的一些技能</h6>
+            </div>
+            <div class="s-items clearfix">
+            </div>
+            <div class="title">
+              <h1>证书</h1>
+              <h6>这是我获得的证书 </h6>
+            </div>
+            <ul>
+              <li>CET-4</li>
+              <li>中级软件设计师</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="works">
+        <div class="container">
+          <div class="outer clearfix">
+            <div class="title">
+              <h1>作品</h1>
+              <h6>这是我练手的一些小项目</h6>
+            </div>
+            <div class="horizontal-tab">
+              <div class="tab-list">
+                <ul class="clearfix">
+                  <li class="tab-accordion tab-active">All</li>
+                  <li class="tab-accordion">Vue</li>
+                  <li class="tab-accordion">Uniapp</li>
+                  <li class="tab-accordion">jQuery</li>
+
+                </ul>
+              </div>
+              <div class="tab-container  clearfix">
+                <div class="tab-img col-md-6">
+                  <a href="https://lsx01.netlify.app/#/login" target="blank">
+                    <img class="img-responsive" src="./src/static/img/vue-shop.jpg" alt="">
+                    <div class="works-info">
+                      <p class="Vue">
+                        使用vue-cli构建项目，以element-ui为主要组件构建的SPA后台管理项目
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="tab-img col-md-6">
+                  <a href="#works">
+                    <img class="img-responsive" src="./src/static/img/uniapp-shop.jpg" alt="">
+                    <div class="works-info">
+                      <p class="Uniapp">
+                        使用uniapp平台开发的移动端shop项目
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="tab-img col-md-6">
+                  <a href="#">
+                    <img class="img-responsive" src="./src/static/img/resume.jpg" alt="">
+                    <div class="works-info">
+                      <p class="jQuery">
+                        以 Bootstrap 的栅格布局和 jQuery 开发的前端简历展示页面
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="introduction">
+        <div class="container">
+          <div class="outer clearfix">
+            <div class="title">
+              <h1>自我简述</h1>
+              <h6>这是我对自己的评价</h6>
+            </div>
+            <div class="text-info">
+              <p>
+                对于学习新知识能保持热心，遇到问题能够琢磨并查找方法解决问题。待人真诚友好，能与他人相处融洽。
+              </p>
+              <p>
+                最近两年由于全职考研并未参加多久工作，2019年考研失败后曾在网龙网络公司做过3个月运维，觉得不适合自己的发展，遂辞职再次考研，
+                2020年的考研又一次失败，时间经济已经不允许我再次考研，于是在家自学前端技术大概5个月左右。学习前端，一是想做程序员，
+                喜欢逻辑上的思考。二是受同学影响接触到前端，本人也比较喜欢可视化方面的，前端工作能够及时反馈效果，故选择学习前端入门。
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./src/common/js/jquery-3.5.1.min.js"></script>
+    <script src="./src/common/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="./src/static/data/skill.js"></script>
+    <script src="./index.js"></script>
+  </body>
+
+</html>

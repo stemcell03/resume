@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  /* height: 9999px; */
+  font-family: 'Asap', sans-serif;
+  background-color: #1b242f;
+  /* font-size: 18px; */
+}
+
+.outer {
+  margin: 55px 0;
+  border-radius: 10px;
+  padding: 4em 7em;
+  line-height: 32px;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+
+
+.title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.2em;
+  background: #00a78e;
+  display: inline-block;
+  padding: .5em 1.5em;
+  position: relative;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h5 {
+  line-height: 1.3em;
+  letter-spacing: 2px;
+
+}
+
+h6 {
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 2px;
+}
+
+
+#about {
+  /* background: linear-gradient(120deg, #3498db, #9b59b6); */
+  background: url(./src/static/img/banner1.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+
+
+#app nav {
+  /* background: linear-gradient(120deg, #3498db, #9b59b6); */
+  background: #1b242f80;
+  border: none;
+}
+
+.navbar-collapse,
+.in {
+  text-align: center;
+  /* background: #1b242f; */
+  border-radius: 10px;
+}
+
+#app nav a {
+  color: #fff;
+  transition: 0.2s ease;
+}
+
+#app nav ul a:hover {
+  color: #00a78e;
+  /* border-bottom: #00a78e solid; */
+
+}
+
+.navbar-toggle {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+}
+
+.navbar-toggle span {
+  color: #00a78e;
+}
+
+.hover {
+  background-color: #00a78e;
+}
+
+
+#portrait {
+  height: auto;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+#portrait img {
+  display: block;
+  max-width: 100%;
+  max-height: 230px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#education {
+  background-image: url(./src/static/img/fafu.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: top; */
+}
+
+
+#education ul a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#education ul a:hover {
+  color: #3498db;
+}
+
+
+#skills .s-items {
+  margin: 2em 0;
+}
+
+.skill-item .inner {
+  position: relative;
+  /* width: 192px; */
+  /* height: 238px; */
+  margin: 2em auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: 0.4s ease;
+}
+
+.skill-item img {
+  width: 192px;
+  height: 238px;
+  border-radius: 10px;
+}
+
+.progress-info {
+  height: 100%;
+  padding: 1em;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #666;
+}
+
+.hide-progress {
+  display: none;
+}
+
+#works {
+  background: #eee;
+}
+
+#works .outer {
+  background: none;
+}
+
+#works .tab-list {
+  text-align: center;
+}
+
+#works ul li {
+  display: inline-block;
+  min-width: 5em;
+  /* margin: 0 1.2em; */
+  color: #000;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+#works .tab-accordion {
+  transition: 0.5s;
+}
+
+#works .tab-active {
+  color: #00a78e;
+  border-bottom: 2px solid #00a78e;
+}
+
+#works .tab-img {
+  box-sizing: border-box;
+  /* max-height: 223px; */
+  overflow: hidden;
+  padding: 0 0.5em;
+  margin: 0.5em 0;
+}
+
+.tab-container-active {
+  display: none;
+}
+
+#works a {
+  text-decoration: none;
+  color: #00a78e;
+}
+
+#works .works-info {
+  box-sizing: border-box;
+  position: absolute;
+  width: calc(100% - 1em);
+  height: 100%;
+  text-align: center;
+  top: 100%;
+  left: 0.5em;
+  color: transparent;
+  /* background-color: #bdc3c733; */
+  transition: 0.5s;
+}
+
+#works .show-info {
+  background-color: rgba(51, 51, 51, 0.9);
+  color: #01a78efd;
+  top: 0%;
+}
+
+#works .show-text {
+  top: 40%
+}
+
+#works p {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  transition: 1s;
+
+}
+
+#works h6 {
+  color: #333;
+}
+
+#works .title {
+  text-align: center;
+}
+
+#introduction {
+  background: url(./src/static/img/introductionbg.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+#introduction .text-info {
+  text-align: justify;
+  text-indent: 2em;
+  color: #fff;
+}
+
+
+@media(max-width:768px) {
+  #about {
+    background-size: auto 100%;
+  }
+
+  #introduction {
+    background-size: auto 100%;
+  }
+
+  .navbar-collapse,
+  .in {
+    background: #1b242f;
+  }
+
+  .outer {
+    padding: 2em;
+  }
+}
