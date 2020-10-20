@@ -1,4 +1,4 @@
-// $(document.body).append("<script  src='./src/static/data/skill.js'></script>")
+$(document.body).append("<script  src='./src/static/data/skill.js'></script>")
 // var skillItem = [{
 //     "imgUrl": "./src/static/img/html.jpg",
 //     "title": "html",
