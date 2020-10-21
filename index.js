@@ -1,4 +1,4 @@
-q$(document.body).append("<script  src='./src/static/data/skill.js'></script>")
+$(document.body).append("<script  src='./src/static/data/skill.js'></script>")
 
 $.each(skillItem, function (i, v) {
   $(".s-items").append(
